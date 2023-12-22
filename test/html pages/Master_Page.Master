@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master_Page.Master.cs" Inherits="test.html_pages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="Master_css.css" />
+</head>
+<body>
+    <p style="color:blueviolet; font-size:600%; text-align:center;">Auction House Site</p>
+    <table>
+        <th>
+            <a href="Home_Page.aspx" class="navigation_button">Home Page</a>
+        </th>
+        <th>
+            <a href="Products.aspx" class="navigation_button">Products</a>
+        </th>
+        <th>
+             <a href="QnA.aspx" class="navigation_button">Q&A</a>
+        </th>
+    </table>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+</body>
+</html>

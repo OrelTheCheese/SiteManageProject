@@ -1,0 +1,10 @@
+﻿body {
+    background-color: crimson;
+}
+table, th, tr, td {
+    border-color: black;
+    border: solid;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+

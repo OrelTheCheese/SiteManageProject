@@ -1,0 +1,40 @@
+﻿body {
+    background-color:crimson;
+}
+table, th{
+    background-color:wheat; border-color:greenyellow; border:solid;
+    margin-left:50%;
+    
+}
+.navigation_button {
+    text-decoration: none;
+    font-size: 300%;
+}
+form {
+    border: 3px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+input[type=text], input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%%;
+}
+button:hover {
+        opacity: 0.8;
+}
+.Q&A_table {
+    border-color:black; 
+    border:solid;
+}
+
+
+
